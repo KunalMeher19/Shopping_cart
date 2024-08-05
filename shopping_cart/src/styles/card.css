@@ -1,0 +1,58 @@
+h4{
+    font-size: 20px;
+    color: #222;
+}
+
+section{
+    width: 80%;
+    margin: auto;
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+}
+
+.cards{
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 60px;
+    border: 1px solid #ebebeb;
+    margin-bottom: 30px;
+    border-radius: 25px;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.2s;
+    position: relative;
+}
+.cards h3,
+.cards p{
+    text-align: center;
+}
+.cards:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.cards img{
+    width: 100%;
+    border-radius: 25px;
+}
+.cards h4{
+    font-size: 16px;
+    color: rgb(41, 41, 41);
+}
+.cards span{
+    color: #969696;
+    font-weight: 500;
+    line-height: 30px;
+}
+.cards .buy-icon{
+    color: #088178;
+    background-color: #c7e9e75e;
+    padding: 15px;
+    border-radius: 50px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
